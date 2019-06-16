@@ -1,0 +1,16 @@
+{
+  "name": "Instructions",
+  "version": "1.0.0",
+  "description": "### Overview In this activity, you'll use the existing Movie Search HTML code to build a serverless application by writing an AWS Lambda function in nodejs, API Gateway, and DynamoDB table. Your movie search code will use AJAX to trigger the AWS Lambda function, which will make an API call to the OMDB API and return the result in JSON. The event will be logged in the DynamoDB table.  ### Before You Begin   - Make sure you have created a Free Tier AWS account. - Sign up for the Lite (free) version of the Screencastify Chrome extension to record your  serverless AWS architecture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.476.0",
+    "request": "^2.88.0"
+  }
+}
